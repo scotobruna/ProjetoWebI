@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BusFind</title>
+ </head>
+<body>
+
+    <header>
+        <h2>BusFind</h2>
+        <p>Achados e Perdidos</p>
+    </header>
+
+    <main>
+
+        <button onclick="abrirDocumento()">
+            Ver documentação do projeto
+        </button>
+    </main>
+
+    <footer>
+                <p>E-mail: scotomeirellesbruna@gmail.com</p>
+    </footer>
+
+    <script>
+        const documento = "documento.txt";
+
+        function abrirDocumento() {
+            window.open(documento, "_blank");
+        }
+    </script>
+
+</body>
+</html>

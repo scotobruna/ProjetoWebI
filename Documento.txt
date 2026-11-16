@@ -1,0 +1,33 @@
+﻿BusFind — Sistema de Achados e Perdidos nos Ônibus
+Tema 
+O BusFind é achados e perdidos voltada ao transporte público. Seu objetivo é facilitar o registro e a consulta de objetos esquecidos nos ônibus, ajudando a organizar os itens encontrados e suas devoluções.
+Entidades: O sistema será organizado através de  três entidades principais: objetos encontrados, linhas de ônibus e devoluções.
+
+
+{
+  "objetos": [
+    {
+      "id": 1,
+      "descricao": "Carteira preta",
+      "categoria": "Acessórios",
+      "dataEncontrado": "2026-10-25",
+      "linhaId": 1,
+      "status": "Aguardando retirada"
+    }
+  ],
+  "linhas": [
+    {
+      "id": 1,
+      "numero": "15",
+      "identificacao": "Linha Centro"
+    }
+  ],
+  "devolucoes": [
+    {
+      "id": 1,
+      "objetoId": 1,
+      "dataDevolucao": null,
+      "situacao": "Pendente"
+    }
+  ]
+}
